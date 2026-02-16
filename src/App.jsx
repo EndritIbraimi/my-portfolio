@@ -493,7 +493,7 @@ export default function Portfolio() {
 
         {/* FOOTER */}
         <footer className="site-footer" style={{ padding: "30px 8%", borderTop: "1px solid rgba(232,201,126,0.06)" }}>
-          <div style={{ fontSize: 12, color: "rgba(232,226,217,0.28)", letterSpacing: "0.04em" }}>© 2025 Endrit Ibraimi. All rights reserved.</div>
+          <div style={{ fontSize: 12, color: "rgba(232,226,217,0.28)", letterSpacing: "0.04em" }}>© 2026 Endrit Ibraimi. All rights reserved.</div>
           <div style={{ fontSize: 12, color: "rgba(232,226,217,0.28)", letterSpacing: "0.04em" }}>Gostivar, North Macedonia</div>
         </footer>
 
