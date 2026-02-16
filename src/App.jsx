@@ -430,7 +430,7 @@ export default function Portfolio() {
             <FadeIn delay={0.1}>
               <p style={{ fontSize: 15, lineHeight: 1.8, color: textMuted, marginBottom: 34 }}>
                 I'm open to freelance projects, part-time remote work, and internship opportunities.
-                Fill out the form — it will open your email app with everything pre-filled, then just hit send.
+                Fill out the form and I'll respond within 24-48 hours.
               </p>
               {[
                 { icon: "✉", text: "endrit.ibraimi04@gmail.com" },
@@ -493,7 +493,7 @@ export default function Portfolio() {
 
         {/* FOOTER */}
         <footer className="site-footer" style={{ padding: "30px 8%", borderTop: "1px solid rgba(232,201,126,0.06)" }}>
-          <div style={{ fontSize: 12, color: "rgba(232,226,217,0.28)", letterSpacing: "0.04em" }}>© 2026 Endrit Ibraimi. All rights reserved.</div>
+          <div style={{ fontSize: 12, color: "rgba(232,226,217,0.28)", letterSpacing: "0.04em" }}>© {new Date().getFullYear()} Endrit Ibraimi. All rights reserved.</div>
           <div style={{ fontSize: 12, color: "rgba(232,226,217,0.28)", letterSpacing: "0.04em" }}>Gostivar, North Macedonia</div>
         </footer>
 
