@@ -313,7 +313,7 @@ export default function Portfolio() {
 
             {/* Stats mobile (below buttons) */}
             <div className="hero-stats-inline" style={{ opacity: heroVisible ? 1 : 0, transition: "opacity 0.8s ease 0.7s" }}>
-              {[["8.90", "GPA"], ["2×", "Hackathons"], ["1st", "JAMacedonia"]].map(([n, l]) => (
+              {[["9.00", "GPA"], ["2×", "Hackathons"], ["1st", "JAMacedonia"]].map(([n, l]) => (
                 <div key={l}>
                   <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 32, fontWeight: 700, color: gold, lineHeight: 1 }}>{n}</div>
                   <div style={{ fontSize: 10, letterSpacing: "0.18em", textTransform: "uppercase", color: "rgba(232,226,217,0.36)", marginTop: 4 }}>{l}</div>
@@ -324,7 +324,7 @@ export default function Portfolio() {
 
           {/* Stats desktop right */}
           <div className="hero-stats-side" style={{ opacity: heroVisible ? 1 : 0, transition: "opacity 0.8s ease 0.7s" }}>
-            {[["8.90", "University GPA"], ["2×", "Hackathons"], ["1st", "JAMacedonia"]].map(([n, l]) => (
+            {[["9.00", "University GPA"], ["2×", "Hackathons"], ["1st", "JAMacedonia"]].map(([n, l]) => (
               <div key={l} style={{ textAlign: "right" }}>
                 <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 40, fontWeight: 700, color: gold, lineHeight: 1 }}>{n}</div>
                 <div style={{ fontSize: 10, letterSpacing: "0.18em", textTransform: "uppercase", color: "rgba(232,226,217,0.36)", marginTop: 4 }}>{l}</div>
@@ -347,7 +347,7 @@ export default function Portfolio() {
           <div className="about-grid">
             <FadeIn delay={0.1}>
               {[
-                "I'm a motivated Computer Science student at SEEU University with a genuine passion for building software that matters. With a GPA of 8.90 and a background in full-stack development, I've been coding, competing, and shipping since high school.",
+                "I'm a motivated Computer Science student at SEEU University with a genuine passion for building software that matters. With a GPA of 9.00 and a background in full-stack development, I've been coding, competing, and shipping since high school.",
                 "I won 1st place at Junior Achievement Macedonia for a business idea competition, represented my high school on Alsat M TV, and participated in SEEUHack 2024 and JunctionXTirana 2025. Fluent in Albanian and English, conversational in German and Macedonian.",
                 "My goal is to build a remote-first software engineering career with international teams, while staying connected to my local tech community in Macedonia."
               ].map((text, i) => (
